@@ -1,0 +1,43 @@
+/* src/components/TreeView.css */
+.tree-view {
+    width: 250px;
+    background-color: #f4f4f4;
+    padding: 10px;
+    position: fixed;
+    overflow-y: auto;
+  }
+  
+  .tree-item {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 8px;
+  }
+
+  .tree-item:hover {
+    background-color: #8e3939;
+    border-radius: 3px;
+  }
+  
+  .tree-title {
+    /* text-decoration: none; */
+    color: #333;
+    margin-left: 5px;
+  }
+  
+  .tree-title:hover {
+    background-color: #e0e0e0;
+    border-radius: 8px;
+  }
+  
+  .tree-children {
+    padding-left: 20px;
+  }
+  
+  .tree-icon {
+    display: inline-block;
+    width: 20px;
+  }
+  

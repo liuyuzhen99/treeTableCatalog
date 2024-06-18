@@ -1,0 +1,13 @@
+/* src/App.css */
+.App {
+  display: flex;
+}
+
+.content {
+  margin-left: 270px; /* 确保内容不会被侧边栏遮挡 */
+  padding: 20px;
+}
+
+.content h1, .content h2, .content h3 {
+  margin-top: 50px;
+}
